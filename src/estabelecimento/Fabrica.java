@@ -10,7 +10,9 @@ public class Fabrica {
 		Iphone iphone = new Iphone();
 		ReprodutorMusical musica = new Iphone();
 		AparelhoTelefonico telefone = new Iphone();
-		NavegadorInternete navegador = new Iphone();		
+        NavegadorInternete navegador = new Iphone();
+        
+        iphone.ligar();
 		
 		System.out.println("Musica");
         musica.selecionarMusica();
